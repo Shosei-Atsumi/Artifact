@@ -1,0 +1,6 @@
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Debug\ClientTest.exe.config
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Debug\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Debug\ClientTest.exe
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Debug\ClientTest.pdb

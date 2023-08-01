@@ -1,0 +1,67 @@
+--BoxingPerformanceTest
+  言語:C#
+  C#は変数をボックス化すると処理速度が遅くなるといった記事を見たため、検証したコード
+
+--ChaChat
+  言語:C#
+  TCPに関する検証用プロジェクト
+  TCP通信を自前で実装しチャット機能を実装しようとした
+
+--ChatGPTAndDiscord
+  言語:C#
+  Discordに送信したワードを読み取りChatGPTのAPIに送信する
+  ChatGPTをAPIから利用できるかの検証プロジェクト
+
+--EftFreeMarketSearcher
+  言語:Python
+  EscapeFromTarkovというゲームのスクリーンをキャプチャーし、アイテムの画像を解析し
+  自動でアイテムの売価を検索する機能を開発しようとしたプロジェクト
+  ゲーム内のフォントの問題でアイテム名を正確に判別できず、中断
+  プロジェクトは中断しましたが、OCSを利用した文字認識について知見を得ました
+
+--GranblueFantasyBot-main
+  言語:Python
+  グランブルーファンタジーというゲームのボット
+  作成目的としては、pythonを使用したブラウザの自動操作について知見を得た
+
+--EXTUBE
+  言語:C#
+  youtubeの動画をダウンロードできるソフト
+
+--FixedLengthFileParser
+  言語:C#
+  業務で固定長ファイルを扱うことがあったため、自動でパースできないか検証したプロジェクト
+
+--LogPurser
+  言語:C#
+  業務でログファイルから特定のログを抽出する必要があったため自動化できないか検証したプロジェクト
+
+--SASGenerateTest
+  言語:C#
+  AzureのStorageAccountのSASトークンをアプリから生成できるかの検証プロジェクト
+
+--StatisticalAnalysisUtility動画全件取得対応
+  言語:Python
+  YoutubeAPIを使用しチャンネルのデータを取得するアプリ
+  
+--SwitchBotController
+  言語:C#
+  SwitchBotのアンドロイド番アプリの使い勝手が悪かったため、PCから操作するために作成
+
+--waysa-main
+  言語:Ruby
+  StatisticalAnalysisUtility動画全件取得対応で取得したデータを閲覧するためのwebアプリケーション
+  Qiita記事　https://qiita.com/saorz/items/d89668091b37c8e0cf0d
+  ※追加機能開発はストップ
+
+--2dActionProject
+  言語:C#
+  Reactive Extensions(Rx)の実装テスト用
+
+--TGS18-master
+  言語:C#
+  東京ゲームショウ2018出展作品
+
+--TGS19C-master
+  言語:C#
+  東京ゲームショウ2019出展作品

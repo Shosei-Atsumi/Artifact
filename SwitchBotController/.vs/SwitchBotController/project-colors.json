@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7bf16f5-92b3-4391-9416-0ddb5a5c522e": {
+      "ProjectGuid": "f7bf16f5-92b3-4391-9416-0ddb5a5c522e",
+      "DisplayName": "SwitchBotController",
+      "ColorIndex": 0
+    },
+    "f6bfe75d-5e54-4e37-ade6-93eb0e5f30ef": {
+      "ProjectGuid": "f6bfe75d-5e54-4e37-ade6-93eb0e5f30ef",
+      "DisplayName": "HttpUtility",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,15 @@
+<div class="border rounded bg-light p-2">
+    <%= form_with url: update_path do |f| %>
+        <div class="form-group">
+            <%= f.label 'ユーザー名' %>
+            <%= f.text_field  :name, class: "form-control", autocomplete: 'off', value: @profile.name %>
+        </div> 
+        <div class="form-group">
+            <%= f.label '自己紹介' %>
+            <%= f.text_field  :comment, class: "form-control", autocomplete: 'off' %>
+        </div>
+        <div class="form-group">
+            <%= f.submit "ユーザープロフィール更新", class: "btn btn-primary" %>
+        </div>
+    <% end %>
+</div>

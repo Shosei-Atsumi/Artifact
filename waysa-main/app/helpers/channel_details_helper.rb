@@ -1,0 +1,2 @@
+module ChannelDetailsHelper
+end

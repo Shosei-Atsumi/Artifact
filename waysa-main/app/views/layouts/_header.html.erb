@@ -1,0 +1,33 @@
+<nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-dark">
+	<a href="#" class="navbar-brand"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navmenu1" aria-controls="navmenu1"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navmenu1">
+		<ul class="navbar-nav  mr-auto">
+			<li class="nav-item">
+				<%= link_to('Top', root_path, {class: "nav-item nav-link ml-auto"}) %>
+			</li>
+		</ul>
+		<ul class="navbar-nav">
+			<% if user_signed_in? %>
+			<li class="nav-item">
+			<% user_profile = Profile.find_by(user_id: current_user.id) %>
+				<%= link_to(user_profile.nil? ? "未設定" : user_profile.name, show_path, {class: "nav-item nav-link ml-auto"}) %>
+			</li>
+			<li class="nav-item">
+				<%= link_to("ログアウト", destroy_user_session_path, {class: "nav-item nav-link ml-auto"}) %>
+			</li>
+			<% else %>
+			<li class="nav-item">
+				<%= link_to('登録', new_user_registration_path, {class: "nav-item nav-link ml-auto"}) %>
+			</li>
+			<li class="nav-item">
+				<%= link_to('ログイン', new_user_session_path, {class: "nav-item nav-link ml-auto"}) %>
+			</li>
+			<% end %>
+		</ul>
+	</div>
+</nav>

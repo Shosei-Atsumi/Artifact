@@ -1,0 +1,7 @@
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Release\ClientTest.exe.config
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Release\ClientTest.exe
+C:\Users\0084a\source\repos\ChaChat\ClientTest\bin\Release\ClientTest.pdb
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Release\ClientTest.csprojAssemblyReference.cache
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Release\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Release\ClientTest.exe
+C:\Users\0084a\source\repos\ChaChat\ClientTest\obj\Release\ClientTest.pdb

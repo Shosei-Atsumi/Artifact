@@ -1,0 +1,15 @@
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.exe.config
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.exe
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.pdb
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.csprojAssemblyReference.cache
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.csproj.CoreCompileInputs.cache
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.exe
+C:\Users\0084a\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.pdb
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.exe.config
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.exe
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\bin\Debug\BoxingPerformanceTest.pdb
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.csproj.AssemblyReference.cache
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.csproj.SuggestedBindingRedirects.cache
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.csproj.CoreCompileInputs.cache
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.exe
+E:\source\repos\BoxingPerformanceTest\BoxingPerformanceTest\obj\Debug\BoxingPerformanceTest.pdb

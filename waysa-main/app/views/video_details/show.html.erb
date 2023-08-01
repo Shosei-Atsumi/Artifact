@@ -1,0 +1,22 @@
+<div class="jumbotron" style="width:100%;">
+  <h1 class="display-7">動画名: <%= @videoInfo.video_title %></h1>
+  <hr>
+  <%= link_to("投稿動画一覧", video_list_show_path(channel_id: params[:channel_id]), class: "btn btn-primary") %>
+  <a class="btn btn-primary" href=<%= "https://www.youtube.com/watch?v=" + params[:video_id] %> role="button" target="_blank" rel="noopener noreferrer">
+    動画リンク <i class="bi bi-arrow-up-right-square"></i>
+  </a>
+</div>
+
+<table class="table table-striped">
+  <caption>List of video info</caption>
+  <thead class="thead-dark">
+    <tr><th>動画名</th><th>再生回数</th><th>更新日時</th></tr>
+  </thead>
+  <% @videoInfos.each do |videoInfo| %>
+	<tr class="bg-light">
+        <td><%= videoInfo.video_title %></td>
+        <td><%= videoInfo.video_view %></td>
+        <td><%= videoInfo.created_at %></td>
+    </tr>  
+  <% end %>
+</table>

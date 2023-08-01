@@ -1,0 +1,6 @@
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\bin\Release\UtilityTCP.dll
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\bin\Release\UtilityTCP.pdb
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\obj\Release\UtilityTCP.csproj.CoreCompileInputs.cache
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\obj\Release\UtilityTCP.dll
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\obj\Release\UtilityTCP.pdb
+C:\Users\0084a\source\repos\ChaChat\UtilityTCP\obj\Release\UtilityTCP.csprojAssemblyReference.cache

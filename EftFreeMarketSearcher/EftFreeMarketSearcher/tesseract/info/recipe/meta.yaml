@@ -1,0 +1,102 @@
+# This file created by conda-build 3.21.7
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Dec 17 21:43:03 2021
+# ------------------------------------------------
+
+package:
+  name: tesseract
+  version: 5.0.0
+source:
+  - folder: tesseract
+    sha256: 72467b7876dc0c39ef7fbcb0f793f73aee1c78d9fabab3ab19cbac1eb42e9fed
+    url: https://github.com/tesseract-ocr/tesseract/archive/5.0.0.tar.gz
+  - folder: tessdata_fast
+    sha256: d0e3bb6f3b4e75748680524a1d116f2bfb145618f8ceed55b279d15098a530f9
+    url: https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - tesseract >=5.0.0,<5.0.1.0a0
+  string: h17c68af_1
+requirements:
+  build:
+    - cmake 3.21.3 h39d44d4_0
+    - ucrt 10.0.20348.0 h57928b3_0
+    - vs2015_runtime 14.29.30037 h902a5da_5
+    - vs2019_win-64 19.29.30037 h774bd60_5
+    - vswhere 2.8.4 h57928b3_0
+  host:
+    - bzip2 1.0.8 h8ffe710_4
+    - ca-certificates 2021.10.8 h5b45459_0
+    - jbig 2.1 h8d14728_2003
+    - jpeg 9d h8ffe710_0
+    - leptonica 1.78.0 h688788b_4
+    - lerc 3.0 h0e60522_0
+    - libarchive 3.5.2 habf0b7a_1
+    - libdeflate 1.8 h8ffe710_0
+    - libiconv 1.16 he774522_0
+    - libpng 1.6.37 h1d00b33_2
+    - libtiff 4.3.0 hd413186_2
+    - libwebp 1.2.1 h57928b3_0
+    - libwebp-base 1.2.1 h8ffe710_0
+    - libxml2 2.9.12 hf5bbc77_1
+    - libzlib 1.2.11 h8ffe710_1013
+    - lz4-c 1.9.3 h8ffe710_1
+    - lzo 2.10 he774522_1000
+    - openjpeg 2.4.0 hb211442_1
+    - openssl 3.0.0 h8ffe710_2
+    - ucrt 10.0.20348.0 h57928b3_0
+    - vc 14.2 hb210afc_5
+    - vs2015_runtime 14.29.30037 h902a5da_5
+    - xz 5.2.5 h62dcd97_1
+    - zlib 1.2.11 h8ffe710_1013
+    - zstd 1.5.0 h6255e5f_0
+  run:
+    - jpeg >=9d,<10a
+    - jpeg >=9d,<10a
+    - leptonica >=1.78.0,<1.79.0a0
+    - libarchive >=3.5.2,<3.6.0a0
+    - libpng >=1.6.37,<1.7.0a0
+    - libpng >=1.6.37,<1.7.0a0
+    - libtiff >=4.3.0,<5.0a0
+    - libtiff >=4.3.0,<5.0a0
+    - libwebp
+    - libwebp-base >=1.2.1,<2.0a0
+    - libzlib >=1.2.11,<1.3.0a0
+    - openjpeg >=2.4.0,<2.5.0a0
+    - openjpeg >=2.4.0,<2.5.0a0
+    - vc >=14.2,<15
+    - vs2015_runtime >=14.29.30037
+    - zlib >=1.2.11,<1.3.0a0
+test:
+  commands:
+    - tesseract --help
+    - tesseract --list-langs
+    - tesseract eurotext.tif outputbase
+  files:
+    - eurotext.tif
+about:
+  description: 'Tesseract is an OCR engine with support for unicode and the ability
+
+    to recognize more than 100 languages out of the box. It can be
+
+    trained to recognize other languages.
+
+    '
+  dev_url: https://github.com/tesseract-ocr/tesseract
+  doc_url: https://github.com/tesseract-ocr/tesseract
+  home: https://github.com/tesseract-ocr/tesseract
+  license: Apache-2.0
+  license_family: Apache
+  license_file: tesseract/LICENSE
+  summary: An optical character recognition (OCR) engine
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CurtLH
+    - adbeda
+    - carlodri
+    - izahn
+    - mxr-conda
+    - oblute

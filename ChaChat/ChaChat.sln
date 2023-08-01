@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaChat", "ChaChat\ChaChat.csproj", "{048B6D81-B22B-4EB6-8270-19A73ED50C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTCP", "UtilityTCP\UtilityTCP.csproj", "{3AC744B3-852D-44A3-A820-5234E7FCA185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{CBFE73CF-E056-4FD2-8DCA-42FD9B7D6CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{048B6D81-B22B-4EB6-8270-19A73ED50C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048B6D81-B22B-4EB6-8270-19A73ED50C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048B6D81-B22B-4EB6-8270-19A73ED50C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048B6D81-B22B-4EB6-8270-19A73ED50C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC744B3-852D-44A3-A820-5234E7FCA185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC744B3-852D-44A3-A820-5234E7FCA185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC744B3-852D-44A3-A820-5234E7FCA185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC744B3-852D-44A3-A820-5234E7FCA185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFE73CF-E056-4FD2-8DCA-42FD9B7D6CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFE73CF-E056-4FD2-8DCA-42FD9B7D6CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFE73CF-E056-4FD2-8DCA-42FD9B7D6CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFE73CF-E056-4FD2-8DCA-42FD9B7D6CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB86A7CC-CE93-4B43-8EE5-6D099A6625B4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DownloadVideoDataSet" targetNamespace="http://tempuri.org/DownloadVideoDataSet.xsd" xmlns:mstns="http://tempuri.org/DownloadVideoDataSet.xsd" xmlns="http://tempuri.org/DownloadVideoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DownloadVideoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DownloadVideoDataSet" msprop:Generator_UserDSName="DownloadVideoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DownloadMovie" msprop:Generator_TableClassName="DownloadMovieDataTable" msprop:Generator_TableVarName="tableDownloadMovie" msprop:Generator_TablePropName="DownloadMovie" msprop:Generator_RowDeletingName="DownloadMovieRowDeleting" msprop:Generator_RowChangingName="DownloadMovieRowChanging" msprop:Generator_RowEvHandlerName="DownloadMovieRowChangeEventHandler" msprop:Generator_RowDeletedName="DownloadMovieRowDeleted" msprop:Generator_UserTableName="DownloadMovie" msprop:Generator_RowChangedName="DownloadMovieRowChanged" msprop:Generator_RowEvArgName="DownloadMovieRowChangeEvent" msprop:Generator_RowClassName="DownloadMovieRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="movie_id" msprop:Generator_ColumnVarNameInTable="columnmovie_id" msprop:Generator_ColumnPropNameInRow="movie_id" msprop:Generator_ColumnPropNameInTable="movie_idColumn" msprop:Generator_UserColumnName="movie_id" type="xs:string" />
+              <xs:element name="title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_UserColumnName="title" type="xs:string" />
+              <xs:element name="resolution" msprop:Generator_ColumnVarNameInTable="columnresolution" msprop:Generator_ColumnPropNameInRow="resolution" msprop:Generator_ColumnPropNameInTable="resolutionColumn" msprop:Generator_UserColumnName="resolution" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DownloadMovie" />
+      <xs:field xpath="mstns:movie_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
